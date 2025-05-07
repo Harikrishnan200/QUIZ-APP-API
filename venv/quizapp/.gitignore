@@ -1,0 +1,23 @@
+# Ignore SQLite database files
+*.sqlite3
+*.db
+
+# Ignore migration files (optional if you want clean Git history)
+# **/migrations/*.py
+# **/migrations/__pycache__/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+ENV/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
